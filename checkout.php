@@ -32,53 +32,6 @@ $user = $users->getUser($_SESSION['user_id']);
 <!--Checkout page section-->
 <div class="Checkout_section mt-60">
     <div class="container">
-        <!-- <div class="row">
-            <div class="col-12">
-                <div class="user-actions">
-                    <h3>
-                        <i class="fa fa-file-o" aria-hidden="true"></i>Returning customer?
-                        <a class="Returning" href="#" data-bs-toggle="collapse" data-bs-target="#checkout_login" aria-expanded="true">Click here to login</a>
-                    </h3>
-                    <div id="checkout_login" class="collapse" data-parent="#accordion">
-                        <div class="checkout_info">
-                            <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing & Shipping section.</p>
-                            <form action="#">
-                                <div class="form_group">
-                                    <label>Username or email <span>*</span></label>
-                                    <input type="text">
-                                </div>
-                                <div class="form_group">
-                                    <label>Password <span>*</span></label>
-                                    <input type="text">
-                                </div>
-                                <div class="form_group group_3 ">
-                                    <button type="submit">Login</button>
-                                    <label for="remember_box">
-                                        <input id="remember_box" type="checkbox">
-                                        <span> Remember me </span>
-                                    </label>
-                                </div>
-                                <a href="#">Lost your password?</a>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="user-actions">
-                    <h3>
-                        <i class="fa fa-file-o" aria-hidden="true"></i>Returning customer?
-                        <a class="Returning" href="#" data-bs-toggle="collapse" data-bs-target="#checkout_coupon" aria-expanded="true">Click here to enter your code</a>
-                    </h3>
-                    <div id="checkout_coupon" class="collapse" data-parent="#accordion">
-                        <div class="checkout_info">
-                            <form action="#">
-                                <input placeholder="Coupon code" type="text">
-                                <button type="submit">Apply coupon</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <div class="checkout_form">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -89,19 +42,6 @@ $user = $users->getUser($_SESSION['user_id']);
                                 <label>Họ tên <span>*</span></label>
                                 <input type="text" name="user_fullname" value="<?php echo $user['user_fullname']; ?>" required />
                             </div>
-                            <!-- <div class="col-12 mb-20">
-                                <label for="country">country <span>*</span></label>
-                                <select class="niceselect_option" name="cuntry" id="country">
-                                    <option value="2">bangladesh</option>
-                                    <option value="3">Algeria</option>
-                                    <option value="4">Afghanistan</option>
-                                    <option value="5">Ghana</option>
-                                    <option value="6">Albania</option>
-                                    <option value="7">Bahrain</option>
-                                    <option value="8">Colombia</option>
-                                    <option value="9">Dominican Republic</option>
-                                </select>
-                            </div> -->
                             <div class="col-lg-6 mb-20">
                                 <label>SĐT <span>*</span></label>
                                 <input type="text" name="user_phone_number" value="<?php echo $user['user_phone_number']; ?>" pattern="(84|0[3|5|7|8|9])+([0-9]{8})" required />
@@ -146,22 +86,6 @@ $user = $users->getUser($_SESSION['user_id']);
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!-- <tr>
-                                        <td> Handbag fringilla <strong> × 2</strong></td>
-                                        <td> $165.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td> Handbag justo <strong> × 2</strong></td>
-                                        <td> $50.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td> Handbag elit <strong> × 2</strong></td>
-                                        <td> $50.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td> Handbag Rutrum <strong> × 1</strong></td>
-                                        <td> $50.00</td>
-                                    </tr> -->
                                     <?php
                                     $carts = new Cart;
                                     $cart_subtotal = 0;
