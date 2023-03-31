@@ -69,64 +69,6 @@ if (!empty(getGET('keyword'))) {
 				</div>
 				<!--shop toolbar end-->
 				<div class="row shop_wrapper grid_4">
-					<!-- <div class="col-lg-3 col-md-4 col-12 ">
-						<article class="single_product">
-							<figure>
-								<div class="product_thumb">
-									<a class="primary_img" href="product-details.html"><img src="assets/img/product/product11.webp" alt=""></a>
-									<a class="secondary_img" href="product-details.html"><img src="assets/img/product/product10.webp" alt=""></a>
-									<div class="action_links">
-										<ul>
-											<li class="add_to_cart"><a href="cart.html" title="Add to cart"><i class="zmdi zmdi-shopping-cart"></i></a></li>
-
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><i class="zmdi zmdi-favorite-outline"></i></a></li>
-
-											<li class="compare"><a href="#" title="Add to Compare"><i class="zmdi zmdi-shuffle"></i></a></li>
-
-											<li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <i class="zmdi zmdi-eye"></i></a></li>
-
-										</ul>
-									</div>
-								</div>
-								<div class="product_content grid_content">
-									<h4 class="product_name"><a href="product-details.html">asd</a></h4>
-
-									<div class="product_rating">
-										<ul>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-									<div class="price_box">
-										<span class="old_price">$420.00</span>
-										<span class="current_price">$180.00</span>
-									</div>
-								</div>
-								<div class="product_content list_content">
-									<h4 class="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
-									<div class="product_rating">
-										<ul>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-									<div class="price_box">
-										<span class="old_price">$420.00</span>
-										<span class="current_price">$180.00</span>
-									</div>
-									<div class="product_desc">
-										<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Class aptent taciti sociosqu ..</p>
-									</div>
-								</div>
-							</figure>
-						</article>
-					</div> -->
 					<?php
 					foreach ($listProducts as $k => $v) {
 						$product_id = $v['product_id'];

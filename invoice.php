@@ -118,7 +118,7 @@ if ($invoice == false)	header('Location: ./');
 											<tbody>
 												<tr>
 													<td><b>MOMO</b></td>
-													<td>0777 xxx 449</td>
+													<td>0358 125 xxx</td>
 													<td><img src="assets/payment/momo.jpg" alt=""></td>
 												</tr>
 												<tr>

@@ -50,7 +50,7 @@ include 'views/header.php';
 				<div class="col-md-6 col-lg-4 mb-4">
 					<h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i>Liên hệ cửa hàng như thế nào?</h6>
 					<p>Khách hàng có thể liên hệ qua Email hoặc SĐT của cửa hàng:</p>
-					<p>Email: info@example.com<br />Số điện thoại: +84 777 100 xxx</p>
+					<p>Email: wibu@gmail.com<br />Số điện thoại: +84 777 100 xxx</p>
 				</div>
 			</div>
 		</section>
