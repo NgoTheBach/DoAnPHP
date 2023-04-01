@@ -161,17 +161,6 @@ include 'views/header.php';
 						<h3>WIBUSHOP</h3>
 						<p>Săn trang phục, phụ kiện Cosplay...</p>
 					</div>
-					<!-- <div class="subscribe_form">
-						<form id="mc-form" class="mc-form footer-newsletter">
-							<input id="mc-email" type="email" autocomplete="off" placeholder="Enter you email address here..." />
-							<button id="mc-submit">Subscribe</button>
-						</form>
-						<div class="mailchimp-alerts text-centre">
-							<div class="mailchimp-submitting"></div>
-							<div class="mailchimp-success"></div>
-							<div class="mailchimp-error"></div>
-						</div>
-					</div> -->
 				</div>
 			</div>
 		</div>

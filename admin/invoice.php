@@ -45,10 +45,6 @@ if (isset($_POST['submit'])) {
 													<small>Ngày đặt hàng:</small>
 													<span><?php echo date('d-m-Y', $invoice['invoice_created_at']); ?></span>
 												</div>
-												<!-- <div>
-													<small>Date Due:</small>
-													<span>08/10/2019</span>
-												</div> -->
 											</div>
 										</div>
 									</div>
@@ -74,10 +70,10 @@ if (isset($_POST['submit'])) {
 												<span>KCN cao, TP. Thủ Đức trực thuộc TP. HCM</span>
 											</div>
 											<div class="invoice-address">
-												<span>contact@wibuteam.phatdev.xyz</span>
+												<span>wibuteam@gmail.com</span>
 											</div>
 											<div class="invoice-address">
-												<span>SĐT: 0777xxx449</span>
+												<span>SĐT: 035xxxxx55</span>
 											</div>
 										</div>
 										<div class="col m6 s12">
@@ -110,27 +106,6 @@ if (isset($_POST['submit'])) {
 												</tr>
 											</thead>
 											<tbody>
-												<!-- <tr>
-													<td>Frest Admin</td>
-													<td>HTML Admin Template</td>
-													<td>28</td>
-													<td>1</td>
-													<td class="indigo-text right-align">$28.00</td>
-												</tr>
-												<tr>
-													<td>Apex Admin</td>
-													<td>Anguler Admin Template</td>
-													<td>24</td>
-													<td>1</td>
-													<td class="indigo-text right-align">$24.00</td>
-												</tr>
-												<tr>
-													<td>Stack Admin</td>
-													<td>HTML Admin Template</td>
-													<td>24</td>
-													<td>1</td>
-													<td class="indigo-text right-align">$24.00</td>
-												</tr> -->
 												<?php
 												foreach ($invoices->getInvoiceDetails($invoice['invoice_id']) as $k => $v) {
 													echo '<tr>
@@ -190,17 +165,6 @@ if (isset($_POST['submit'])) {
 												<span>In đơn</span>
 											</a>
 										</div>
-										<!-- <div class="invoice-action-btn">
-										<a href="app-invoice-edit.html" class="btn-block btn btn-light-indigo waves-effect waves-light">
-											<span>Edit Invoice</span>
-										</a>
-									</div>
-									<div class="invoice-action-btn">
-										<a href="#" class="btn waves-effect waves-light display-flex align-items-center justify-content-center">
-											<i class="material-icons mr-3">attach_money</i>
-											<span class="text-nowrap">Add Payment</span>
-										</a>
-									</div> -->
 										<?php
 										$invoice_status_id = $invoice['invoice_status_id'];
 										if ($invoice_status_id >= 2 && $invoice_status_id <= 3) {

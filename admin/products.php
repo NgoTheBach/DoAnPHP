@@ -49,12 +49,6 @@ if (!empty(getGET('keyword'))) {
 											<div class="col s12 m6 l10">
 												<h4 class="card-title">Lọc sản phẩm</h4>
 											</div>
-											<!-- <div class="col s12 m6 l2">
-												<ul class="tabs">
-													<li class="tab col s6 p-0"><a class="active p-0" href="#view-input-fields">View</a></li>
-													<li class="tab col s6 p-0"><a class="p-0" href="#html-input-fields">Html</a></li>
-												</ul>
-											</div> -->
 										</div>
 									</div>
 									<div class="row">
@@ -169,26 +163,6 @@ if (!empty(getGET('keyword'))) {
 										echo '<li class="' . ($page == $i ? 'active' : 'waves-effect') . '"><a href="?page=' . $i . '">' . $i . '</a></li>';
 									}
 									?>
-									<!-- <li class="disabled">
-										<a href="#!">
-											<i class="material-icons">chevron_left</i>
-										</a>
-									</li>
-									<li class="active"><a href="#!">1</a>
-									</li>
-									<li class="waves-effect"><a href="#!">2</a>
-									</li>
-									<li class="waves-effect"><a href="#!">3</a>
-									</li>
-									<li class="waves-effect"><a href="#!">4</a>
-									</li>
-									<li class="waves-effect"><a href="#!">5</a>
-									</li>
-									<li class="waves-effect">
-										<a href="#!">
-											<i class="material-icons">chevron_right</i>
-										</a>
-									</li> -->
 								</ul>
 							</div>
 						</div>

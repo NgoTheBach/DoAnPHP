@@ -39,26 +39,6 @@ $product_imgs = explode('|', $product['product_img']);
 					</div>
 					<div class="single-zoom-thumb">
 						<ul class="s-tab-zoom owl-carousel single-product-active" id="gallery_01">
-							<!-- <li>
-                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig4.webp" data-zoom-image="assets/img/product/productbig4.webp">
-                                    <img src="assets/img/product/productbig4.webp" alt="zo-th-1" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig1.webp" data-zoom-image="assets/img/product/productbig1.webp">
-                                    <img src="assets/img/product/productbig1.webp" alt="zo-th-1" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig2.webp" data-zoom-image="assets/img/product/productbig2.webp">
-                                    <img src="assets/img/product/productbig2.webp" alt="zo-th-1" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig3.webp" data-zoom-image="assets/img/product/productbig3.webp">
-                                    <img src="assets/img/product/productbig3.webp" alt="zo-th-1" />
-                                </a>
-                            </li> -->
 							<?php
 							foreach ($product_imgs as $k => $v) {
 								echo '<li><a href="javascript:void();" class="elevatezoom-gallery active" data-update="" data-image="' . $v . '" data-zoom-image="' . $v . '">
@@ -74,39 +54,10 @@ $product_imgs = explode('|', $product['product_img']);
 				<div class="product_d_right">
 					<form onsubmit="return false">
 						<h1><?php echo $product['product_name']; ?></h1>
-						<!-- <div class="product_nav">
-                            <ul>
-                                <li class="prev"><a href="product-details.html"><i class="fa fa-angle-left"></i></a></li>
-                                <li class="next"><a href="variable-product.html"><i class="fa fa-angle-right"></i></a></li>
-                            </ul>
-                        </div> -->
-						<!-- <div class=" product_ratting">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                <li class="review"><a href="#"> (customer review ) </a></li>
-                            </ul>
-                        </div> -->
 						<div class="price_box">
 							<span class="current_price"><?php echo $product_rental_price; ?>đ</span>
 							<!-- <span class="old_price">$80.00</span> -->
 						</div>
-						<!-- <div class="product_desc">
-                            <p style="font-size: 15px;">qweqwe</p>
-                        </div> -->
-						<!-- <div class="product_variant color">
-                            <h3>Available Options</h3>
-                            <label>color</label>
-                            <ul>
-                                <li class="color1"><a href="#"></a></li>
-                                <li class="color2"><a href="#"></a></li>
-                                <li class="color3"><a href="#"></a></li>
-                                <li class="color4"><a href="#"></a></li>
-                            </ul>
-                        </div> -->
 						<div class="product_variant quantity">
 							<?php if ($product['product_quantity'] > 0) { ?>
 								<label>Số lượng</label>
@@ -116,24 +67,8 @@ $product_imgs = explode('|', $product['product_img']);
 						</div>
 						<div class=" product_d_action">
 							<p><?php echo $product['product_quantity']; ?> sản phẩm có sẵn</p>
-							<!-- <ul>
-                                <li><a href="#" title="Add to wishlist">+ Add to Wishlist</a></li>
-                                <li><a href="#" title="Add to wishlist">+ Compare</a></li>
-                            </ul> -->
 						</div>
-						<!-- <div class="product_meta">
-                            <span>Loại sản phẩm: <a href="javascript:void();">asdasd</a></span>
-                        </div> -->
 					</form>
-					<!-- <div class="priduct_social">
-                        <ul>
-                            <li><a class="facebook" href="#" title="facebook"><i class="fa fa-facebook"></i> Like</a></li>
-                            <li><a class="twitter" href="#" title="twitter"><i class="fa fa-twitter"></i> tweet</a></li>
-                            <li><a class="pinterest" href="#" title="pinterest"><i class="fa fa-pinterest"></i> save</a></li>
-                            <li><a class="google-plus" href="#" title="google +"><i class="fa fa-google-plus"></i> share</a></li>
-                            <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i> linked</a></li>
-                        </ul>
-                    </div> -->
 				</div>
 			</div>
 		</div>

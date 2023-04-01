@@ -131,27 +131,6 @@ $user = $users->getUser($_SESSION['user_id']);
                             </table>
                         </div>
                         <div class="payment_method">
-                            <!-- <div class="panel-default">
-                                <input id="payment" name="check_method" type="radio" data-bs-target="createp_account" />
-                                <label for="payment" data-bs-toggle="collapse" data-bs-target="#method" aria-controls="method">Create an account?</label>
-                                <div id="method" class="collapse one" data-parent="#accordion">
-                                    <div class="card-body1">
-                                        <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel-default">
-                                <input id="payment_defult" name="check_method" type="radio" data-bs-target="createp_account" />
-                                <label for="payment_defult" data-bs-toggle="collapse" data-bs-target="#collapsedefult" aria-controls="collapsedefult">PayPal <img src="assets/img/icon/papyel.webp" alt=""></label>
-                                <div id="collapsedefult" class="collapse one" data-parent="#accordion">
-                                    <div class="card-body1">
-                                        <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- <div class="order_button">
-                                <button type="submit">Đặt hàng</button>
-                            </div> -->
                         </div>
                     </form>
                 </div>

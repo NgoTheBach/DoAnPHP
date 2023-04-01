@@ -79,20 +79,6 @@ $user_bank_name = $user['user_bank_name'];
 										</tr>
 									</thead>
 									<tbody>
-										<!-- <tr>
-											<td>1</td>
-											<td>May 10, 2018</td>
-											<td><span class="success">Completed</span></td>
-											<td>$25.00 for 1 item </td>
-											<td><a href="cart.html" class="view">view</a></td>
-										</tr>
-										<tr>
-											<td>2</td>
-											<td>May 10, 2018</td>
-											<td>Processing</td>
-											<td>$17.00 for 1 item </td>
-											<td><a href="cart.html" class="view">view</a></td>
-										</tr> -->
 										<?php
 										$invoices = new Invoice;
 										foreach ($invoices->getInvoicesByUserId($_SESSION['user_id'], 0, 0) as $k => $v) {
@@ -133,16 +119,6 @@ $user_bank_name = $user['user_bank_name'];
 											<input type="text" name="user_bank_account_number" id="user_bank_account_number" value="<?PHP echo $user_bank_account_number; ?>" pattern="[0-9]+" required />
 											<label>Tên ngân hàng *</label>
 											<input type="text" name="user_bank_name" id="user_bank_name" value="<?PHP echo $user_bank_name; ?>" required />
-											<!-- <br />
-                                            <span class="custom_checkbox">
-                                                <input type="checkbox" value="1" name="optin">
-                                                <label>Receive offers from our partners</label>
-                                            </span>
-                                            <br />
-                                            <span class="custom_checkbox">
-                                                <input type="checkbox" value="1" name="newsletter">
-                                                <label>Sign up for our newsletter<br><em>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</em></label>
-                                            </span> -->
 											<div class="save_button primary_btn default_button">
 												<button type="submit" name="submit" value="update_info">Lưu</button>
 											</div>

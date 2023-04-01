@@ -56,12 +56,6 @@ if (!empty(getGET('invoice_status_id'))) {
 											<p>Tìm kiếm nhanh hoá đơn theo trạng thái hoá đơn.</p>
 											<br>
 											<form class="row" method="get" action="">
-												<!-- <div class="col s4">
-													<div class="input-field col s12">
-														<input placeholder="keyword" id="keyword" type="number" class="validate" name="keyword" />
-														<label for="keyword">Mã hoá đơn</label>
-													</div>
-												</div> -->
 												<div class="col s4">
 													<div class="input-field col s12">
 														<select class="select2 browser-default" name="invoice_status_id" id="invoice_status_id">
@@ -109,8 +103,8 @@ if (!empty(getGET('invoice_status_id'))) {
 											<table class="highlight">
 												<thead>
 													<tr>
-														<th>ID đơn</th>
-														<th>Tên khách</th>
+														<th>ID Đơn</th>
+														<th>Tên Khách</th>
 														<th>Số điện thoại</th>
 														<th>Email</th>
 														<th>Tổng tiền (gồm các phí)</th>

@@ -165,36 +165,6 @@ $_SESSION['captcha-product'] = generateRandomString();
 												</div>
 											</div>
 											<div class="col s12">
-												<!-- <div id="snow-wrapper">
-													<div id="snow-container">
-														<div class="quill-toolbar">
-															<span class="ql-formats">
-																<button class="ql-bold"></button>
-																<button class="ql-italic"></button>
-																<button class="ql-underline"></button>
-															</span>
-															<span class="ql-formats">
-																<button class="ql-list" value="ordered"></button>
-																<button class="ql-list" value="bullet"></button>
-																<select class="ql-align">
-																	<option label="left" selected></option>
-																	<option label="center" value="center"></option>
-																	<option label="right" value="right"></option>
-																	<option label="justify" value="justify"></option>
-																</select>
-															</span>
-															<span class="ql-formats">
-																<button class="ql-link"></button>
-																<button class="ql-image"></button>
-																<button class="ql-video"></button>
-															</span>
-															<span class="ql-formats">
-																<button class="ql-clean"></button>
-															</span>
-														</div>
-														<div class="editor"></div>
-													</div>
-												</div> -->
 												<div class="input-field col s12">
 													<textarea id="product_description" name="product_description" class="materialize-textarea"><?php echo $product_description; ?></textarea>
 													<label for="product_description">Nội dung / Mô tả (có thể Enter xuống hàng)</label>

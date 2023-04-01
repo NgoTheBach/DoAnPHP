@@ -22,8 +22,6 @@ $statistic = new Statistic();
 											</div>
 											<div class="col s5 m5 right-align">
 												<h5 class="mb-0 white-text"><?php echo $statistic->totalInvoices(); ?></h5>
-												<!-- <p class="no-margin">New</p>
-												<p>6,00,00</p> -->
 											</div>
 										</div>
 									</div>
@@ -35,12 +33,10 @@ $statistic = new Statistic();
 										<div class="row">
 											<div class="col s7 m7">
 												<i class="material-icons background-round mt-5">perm_identity</i>
-												<p>Tổng khách hàng</p>
+												<p>Tổng Khách Hành</p>
 											</div>
 											<div class="col s5 m5 right-align">
 												<h5 class="mb-0 white-text"><?php echo $statistic->totalUsers(); ?></h5>
-												<!-- <p class="no-margin">New</p>
-												<p>1,12,900</p> -->
 											</div>
 										</div>
 									</div>
@@ -52,12 +48,10 @@ $statistic = new Statistic();
 										<div class="row">
 											<div class="col s7 m7">
 												<i class="material-icons background-round mt-5">timeline</i>
-												<p>Tổng sản phẩm</p>
+												<p>Tổng Sản Phẩm</p>
 											</div>
 											<div class="col s5 m5 right-align">
 												<h5 class="mb-0 white-text"><?php echo $statistic->totalProducts(); ?></h5>
-												<!-- <p class="no-margin">Growth</p>
-												<p>3,42,230</p> -->
 											</div>
 										</div>
 									</div>
@@ -69,7 +63,7 @@ $statistic = new Statistic();
 										<div class="row">
 											<div class="col s7 m7">
 												<i class="material-icons background-round mt-5">attach_money</i>
-												<p>Doanh thu</p>
+												<p>Doanh Thu</p>
 											</div>
 											<div class="col s5 m5 right-align">
 												<h5 class="mb-0 white-text"><?php echo formatPrice($statistic->totalRevenue()/1000); ?>K đ</h5>
