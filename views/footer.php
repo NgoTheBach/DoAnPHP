@@ -13,7 +13,7 @@
 						</div>
 
 						<p><span>Địa chỉ:</span> KCN cao, TP. Thủ Đức trực thuộc TP. HCM</p>
-						<p><span>Email:</span> <a href="javascript:void();">contact@wibuteam.phatdev.xyz</a></p>
+						<p><span>Email:</span> <a href="javascript:void();">wibuteam@gmail.com</a></p>
 						<p><span>Số điện thoại:</span> <a href="tel:+84777100xxx">+84 777 100 xxx</a></p>
 					</div>
 				</div>
@@ -37,7 +37,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6 col-md-6">
 					<div class="copyright_area">
-						<p>Copyright &copy; 2022 <a href="javascript:void();">WibuTeam</a>.</p>
+						<p>Copyright &copy; 2023 <a href="javascript:void();">WibuTeam</a>.</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">

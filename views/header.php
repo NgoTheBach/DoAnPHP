@@ -232,44 +232,6 @@ if (strpos(strtolower($_SERVER['REQUEST_URI']), 'checkout.')) {
 										<li class="mini_cart_wrapper"><a href="cart.html"><i class="zmdi zmdi-shopping-cart zmdi-hc-fw"></i></a>
 											<!--mini cart-->
 											<div class="mini_cart">
-												<!-- <div class="cart_gallery">
-													<div class="cart_item">
-														<div class="cart_img">
-															<a href="javascript:void();"><img src="assets/img/s-product/product.webp" alt=""></a>
-														</div>
-														<div class="cart_info">
-															<a href="javascript:void();">Quisque In Arcu</a>
-															<p><span> $65.00 </span> X 1</p>
-														</div>
-														<div class="cart_remove">
-															<a href="javascript:void();"><i class="ion-android-close"></i></a>
-														</div>
-													</div>
-													<div class="cart_item">
-														<div class="cart_img">
-															<a href="javascript:void();"><img src="assets/img/s-product/product2.webp" alt=""></a>
-														</div>
-														<div class="cart_info">
-															<a href="javascript:void();">Donec Ac Tempus</a>
-															<p><span> $60.00 </span> X 1</p>
-														</div>
-														<div class="cart_remove">
-															<a href="javascript:void();"><i class="ion-android-close"></i></a>
-														</div>
-													</div>
-												</div>
-												<div class="mini_cart_table">
-													<div class="cart_table_border">
-														<div class="cart_total">
-															<span>Sub total:</span>
-															<span class="price">$125.00</span>
-														</div>
-														<div class="cart_total mt-10">
-															<span>total:</span>
-															<span class="price">$125.00</span>
-														</div>
-													</div>
-												</div> -->
 												<div class="mini_cart_footer">
 													<div class="cart_button">
 														<a href="cart.html">Xem giỏ hàng</a>
