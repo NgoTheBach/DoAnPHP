@@ -210,22 +210,7 @@ class User extends DB
 		unset($_SESSION['user_email']);
 		unset($_SESSION['user_token']);
 	}
-	public static function Token($user)
-	{
-		return JWT::encode(['uid' => encode_id($user['user_id']), 'iat' => time()], SALT, 'HS512');
-	}
-	public static function parseToken($user_token)
-	{
-		try {
-			$a = JWT::decode($user_token, SALT);
-			$a = json_decode(json_encode($a), true);
-			return $a;
-			// if (time() < $a->exp && $a->usr == $_COOKIE['usr']) return $a;
-			// else return false;
-		} catch (Exception $e) {
-			return false;
-		}
-	}
+
 }
 class ProductTypes extends DB
 {
