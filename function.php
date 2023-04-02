@@ -62,6 +62,7 @@ function fixSqlInjection($str)
 
 	return $str;
 }
+
 function getPOST($key)
 {
 	$key = strtolower($key);
@@ -72,6 +73,7 @@ function getPOST($key)
 	// return fixSqlInjection($value);
 	return $value;
 }
+
 function getCOOKIE($key)
 {
 	$key = strtolower($key);
@@ -82,6 +84,7 @@ function getCOOKIE($key)
 	// return fixSqlInjection($value);
 	return $value;
 }
+
 function getGET($key)
 {
 	$key = strtolower($key);
@@ -92,6 +95,7 @@ function getGET($key)
 	// return fixSqlInjection($value);
 	return $value;
 }
+
 function getREQUEST($key)
 {
 	$key = strtolower($key);
@@ -102,7 +106,7 @@ function getREQUEST($key)
 	// return fixSqlInjection($value);
 	return $value;
 }
-
+//func dinh dang lai so tien
 function formatPrice($price)
 {
 	return number_format($price, 0, ',', '.');

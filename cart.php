@@ -55,7 +55,7 @@ include 'views/header.php';
 												<td class="product_thumb"><a target="_blank" href="product-details.html?product_id=' . $product_id . '"><img src="' . $product_img . '" alt=""></a></td>
 												<td class="product_name"><a target="_blank" href="product-details.html?product_id=' . $product_id . '">' . $v['product_name'] . '</a></td>
 												<td class="product-price product_price" id="product_price_' . $product_id . '" data-price="' . $v['product_rental_price'] . '">' . number_format($v['product_rental_price'], 0, ',', '.') . 'đ</td>
-												<td class="product_quantity"><input id="product_quantity_' . $product_id . '" min="1" max="' . $v['product_quantity'] . '" onchange="update_cart(' . $product_id . ', this.value);" value="' . $cart_product_quantity . '" type="number" />&nbsp;&nbsp;<i>/ ' . $v['product_quantity'] . '</i></td>
+												<td class="product_quantity"><input id="product_quantity_' . $product_id . '" min="1" max="' . $v['product_quantity'] . '" onchange="update_cart(' . $product_id . ', this.value);"onkeypress="return event.charCode >= 48 && event.charCode <= 57" value="' . $cart_product_quantity . '" type="number" />&nbsp;&nbsp; <i>/ ' . $v['product_quantity'] . '</i></td>
 												<td class="product_total" id="product_subtotal_' . $product_id . '">' . number_format($product_price_total, 0, ',', '.') . 'đ</td>
 											</tr>';
 										$cart_subtotal += $product_price_total;

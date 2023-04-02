@@ -121,11 +121,6 @@ if ($invoice == false)	header('Location: ./');
 													<td>0358 125 xxx</td>
 													<td><img src="assets/payment/momo.jpg" alt=""></td>
 												</tr>
-												<tr>
-													<td><b>Vetcombank</b></td>
-													<td>053 xxx 258 9292</td>
-													<td><img src="assets/payment/vcb.jpg" alt=""></td>
-												</tr>
 											</tbody>
 										</table>
 									</div>

@@ -42,7 +42,7 @@ class DB
 	// }
 	function __construct()
 	{
-		$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die('Cannot connect to database!');
+		$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die('Không thể kết nối tới database!');
 		mysqli_set_charset($conn, "utf8");
 		$this->conn = $conn;
 	}
@@ -593,7 +593,7 @@ class Fee
 	public static function bond($price)
 	{
 		$cost = 0;
-		if ($price <= 1000000) $cost = 500000;
+		if ($price <= 1000000) $cost = 300000;
 		else $cost = 1000000 + $price * 35 / 100;
 		return $cost;
 	}
